@@ -48,7 +48,7 @@ const App = () => {
             <div className="mt-4 text-center ">
               <input
                 className="bg-white px-2 py-3 rounded-2xl mb-4"
-                type="text"
+                type="number"
                 placeholder="Enter any number"
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
