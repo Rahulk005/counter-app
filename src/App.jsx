@@ -3,7 +3,7 @@ import { RefreshCcwDot } from "lucide-react";
 
 const App = () => {
   const [count, setCount]=useState(0);
-  const [inputValue,setInputValue]=useState(0)
+  const [inputValue,setInputValue]=useState(10)
   let reset =()=>{
    setCount(0)
   }
@@ -49,7 +49,6 @@ const App = () => {
               <input
                 className="bg-white px-2 py-3 rounded-2xl mb-4"
                 type="number"
-                placeholder="Enter any number"
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
               />
